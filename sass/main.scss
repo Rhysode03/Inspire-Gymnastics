@@ -22,19 +22,19 @@ h1 {
     font-family: $raleway;
     font-weight: 700;
     color: white;
-    font-size: 76px;
+    font-size: 3rem;
 }
 
 h2 {
     font-family: $recursive;
     font-weight: 600;
     color: white;
-    font-size: 55px;
+    font-size: 2rem;
 }
 
 h3 {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 1rem;
     color: white;
     word-wrap: normal;
 }
@@ -74,6 +74,12 @@ h3 {
 }
 
 .masthead {
+    background: linear-gradient(#ad1d1d91, #ffffff28),
+    url(../images/gymnastics_hero_image_v2_crop.jpg)center/cover;
+    height: 100vh;
+  }
+
+  section {
     background: linear-gradient(#ad1d1d91, #ffffff28),
     url(../images/gymnastics_hero_image_v2_crop.jpg)center/cover;
     height: 100vh;

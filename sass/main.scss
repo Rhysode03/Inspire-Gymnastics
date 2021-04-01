@@ -1,5 +1,6 @@
 @import "functions";
 @import "variables";
+@import "mixins";
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700;800&display=swap');
 
@@ -8,10 +9,7 @@
 $recursive: 'Recursive', serif;
 $raleway: 'Raleway', sans-serif;
 
-$theme-colors: (
-    "white": #ffff,
-    "logo-red": #ded,
-);
+$logo-red: #a81010;
 
 @import "bootstrap";
 
@@ -23,15 +21,60 @@ body {
 h1 {
     font-family: $raleway;
     font-weight: 700;
-    color: $white-font
+    color: white;
+    font-size: 76px;
 }
 
-.navbar-nav{
-    color: $white-font !important;
+h2 {
+    font-family: $recursive;
+    font-weight: 600;
+    color: white;
+    font-size: 55px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    word-wrap: normal;
+}
+
+.nav-link{
+    font-weight: 700;
+    &:hover {
+        color: $logo-red !important;
+    }
+    &:active {
+        color: $logo-red !important;
+    }
+}
+
+.navbar-brand {
+    height: 4rem;
+    img {
+        width: 5rem;
+        height: 3rem;    
+    }
+  }
+
+.notice {
+    display: flex;
+    justify-content: end;
+
+}
+
+.hero-text {
+    padding-left: 5rem;
+    margin-right: 45rem !important;
+    margin-top: 10rem !important;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
 .masthead {
-    background: linear-gradient(rgba(252, 82, 82, 0.4), rgba(255, 255, 255, 0.3)),
+    background: linear-gradient(#ad1d1d91, #ffffff28),
     url(../images/gymnastics_hero_image_v2_crop.jpg)center/cover;
-    height: 105vh;
+    height: 100vh;
   }

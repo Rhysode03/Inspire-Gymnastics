@@ -14,12 +14,14 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/b673d4af76.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="masthead">
+
         <nav class="navbar navbar-light navbar-expand-sm">
-            <a href="#" class="navbar-brand pb-1 pl-3"><img src="images/RHP_logo/RHP_logo_vector_white.png"
+            <a href="#" class="navbar-brand pb-1 pl-3"><img src="images/inspire-logo.png"
                     alt="Inspire Gymnastics Logo" /></a>
             <button type="button" class="navbar-toggler bg-green" data-toggle="collapse" data-target="#navbarLinks">
                 <span class="navbar-toggler-icon"></span>
@@ -27,30 +29,143 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a href="#header" class="nav-link" id="header">Home</a>
+                        <a href="#header" class="nav-link text-white" id="header">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link" id="header">About Us</a>
+                        <a href="#about" class="nav-link text-white" id="header">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#properties" class="nav-link" id="header">Properties</a>
+                        <a href="#properties" class="nav-link text-white" id="header">Properties</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#faq" class="nav-link" id="header">FAQ</a>
+                        <a href="#faq" class="nav-link text-white" id="header">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link" id="header">Contact</a>
+                        <a href="#contact" class="nav-link text-white" id="header">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <h1 class="text-white">Inspire Gymnastics</h1>
+        <div class="notice col-12" data-toggle="modal" data-target="#modal">
+            <a href="#modal" class="nav-link p-0 pr-2 m-0">COVID-19 Statement</a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                        <div class="modal-content bg-accent">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-white" id="exampleModalLongTitle">Houses near you.</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="container pt-4">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 d-flex">
+                                        <div class="card">
+                                            <img src="/images/house_pics/property1.jpg" alt="" class="card-img-top">
+                                            <div class="card-body flex-fill bg-light-green">
+                                                <h5 class="card-title">Exquisite Single Family Home</h5>
+                                                <p class="card-text font-italic"><i
+                                                        class="fas fa-map-marked-alt mx-1 text-green"></i>1955 Magic
+                                                    Drive,
+                                                    Ogden UT 84444<br></p>
+                                                <p>Home is in a good school district. Open space, air conditioning,
+                                                    great
+                                                    floor plan! Spacious backyard with well maintained lawn.</p>
+                                                <h5><sup>$</sup>1,895<sub>/month</sub></h5>
+                                                <p>1,350 sqft<br>
+                                                    <i class="fas fa-bed text-green"></i> 3 bed | <i
+                                                        class="fas fa-bath text-green"></i> 2 baths | <i
+                                                        class="fas fa-warehouse text-green"></i> 3-car garage
+                                                </p>
+                                                <a href="#" class="btn bg-green  btn-sm border-dark">More Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 mb-4 d-flex">
+                                        <div class="card">
+                                            <img src="images/house_pics/property2.jpg" alt="" class="card-img-top">
+                                            <div class="card-body flex-fill bg-light-green">
+                                                <h5 class="card-title">Spacious Home with Great Park Views</h5>
+                                                <p class="card-text font-italic"><i
+                                                        class="fas fa-map-marked-alt mx-1 text-green"></i>2013 Happy
+                                                    Lane,
+                                                    South Ogden, UT 84000<br></p>
+                                                <p>Paved walkways and wooden cabinetry. This home is located on a tree
+                                                    lined
+                                                    street in a quiet cul-de-sac. Lots of trees and plenty of space for
+                                                    your
+                                                    kids.</p>
+                                                <h5><sup>$</sup>1,689<sub>/month</sub></h5>
+                                                <p>1,860 sqft<br>
+                                                    <i class="fas fa-bed text-green"></i> 3 bed | <i
+                                                        class="fas fa-bath text-green"></i> 3 baths | <i
+                                                        class="fas fa-warehouse text-green"></i> 2-car garage
+                                                </p>
+                                                <a href="#" class="btn bg-green btn-sm border-dark">More Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 mb-4 d-flex">
+                                        <div class="card">
+                                            <img src="/images/house_pics/property3.jpg" alt="" class="card-img-top">
+                                            <div class="card-body flex-fill bg-light-green">
+                                                <h5 class="card-title">Modern Home with All the Amenities</h5>
+                                                <p class="card-text font-italic"><i
+                                                        class="fas fa-map-marked-alt mx-1 text-green"></i>1955 Magic
+                                                    Drive,
+                                                    Ogden UT 84444<br></p>
+                                                <p>Home is in a good school district. Open space, air conditioning,
+                                                    great
+                                                    floor plan! Spacious backyard with well maintained lawn.</p>
+                                                <h5><sup>$</sup>2,150<sub>/month</sub></h5>
+                                                <p>2,860 sqft<br>
+                                                    <i class="fas fa-bed text-green"></i> 4 Bed | <i
+                                                        class="fas fa-bath text-green"></i> 4 baths | <i
+                                                        class="fas fa-warehouse text-green"></i> 2-car garage
+                                                </p>
+                                                <a href="#" class="btn bg-green btn-sm border-dark">More Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container hero-text">
+            <div class="row">
+                <div class="col-12 ">
+                    <h1 class="col-12">Gymnastics in Ogden, Utah</h1>
+                    <h2 class="col-12">&#8212; Non-Competitive Gymnastics</h2>
+                    <div class="ml-5">
+                        <h3 class="text-wrap p-0 mb-2 col-9">Located in Ogden, Utah. Inspire gymnastics is a
+                            non-competitive
+                            gym
+                            coaching classes from walking to 18+ years old.</h3>
+                        <button class="btn btn-secondary btn-lg pt-3 pb-3 mt-3">Come Join Us!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+    <section class="about"></section>
+    <section class="directions"></section>
+    <section class="testimonials"></section>
+
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <script src="" async defer></script>
+    <script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
 </body>
 
 </html>

@@ -22,19 +22,19 @@ h1 {
     font-family: $raleway;
     font-weight: 700;
     color: white;
-    font-size: 3rem;
+    font-size: 4em;
 }
 
 h2 {
     font-family: $recursive;
     font-weight: 600;
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h3 {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
     word-wrap: normal;
 }
@@ -59,18 +59,20 @@ h3 {
 
 .notice {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 
 }
 
 .hero-text {
-    padding-left: 5rem;
-    margin-right: 45rem !important;
-    margin-top: 10rem !important;
+    padding-left: 5%;
+    margin-right: 65% !important;
+    position: relative;
+    margin-top: 11% !important;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
-    align-items: center;    
+    justify-content: flex-start;
+    align-items: center; 
+    text-align: left;   
 }
 
 .masthead {
@@ -84,3 +86,32 @@ h3 {
     url(../images/gymnastics_hero_image_v2_crop.jpg)center/cover;
     height: 100vh;
   }
+
+  .section-head {
+      display: flex;
+      justify-content: center;
+  }
+  /* CSS used here will be applied after bootstrap.css */
+.ekko-lightbox-nav-overlay a {
+    color: goldenrod;
+}
+.gallery-title {
+    text-align: center;
+	font-weight: 500;
+	border-bottom: 1px dotted orange;
+	margin-top: 1em;
+}
+
+@media only screen and (max-width: 1288px){
+    .hero-text {
+        padding-left: 5%;
+        margin-right: 0 i !important;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .hero-text {
+        margin-top: 0;
+        flex-direction: column;
+    }
+}

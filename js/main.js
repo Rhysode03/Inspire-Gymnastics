@@ -5,4 +5,4 @@ if (!isiOS) {
         window.addEventListener('resize', function () { // on window resize
             var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically var scrollamount = (scrolltop / (scrollheight-windowheight)) * 100 // get amount scrolled (in %)
             fish.style.left = -100 + scrollamount + '%' // set position of fish in percentage (starts at -100%) }, false)
-        }
+        };

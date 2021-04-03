@@ -10070,11 +10070,21 @@ h3 {
 }
 
 .hero-text {
+<<<<<<< Updated upstream
   padding-left: 5%;
   margin-right: 65% !important;
   position: relative;
   margin-top: 11% !important;
   box-sizing: border-box;
+=======
+  padding-left: 5rem;
+  margin-right: 45rem !important;
+  margin-top: 5.7rem !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> Stashed changes
   display: flex;
   justify-content: flex-start;
   align-items: center;

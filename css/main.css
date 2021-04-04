@@ -10070,21 +10070,11 @@ h3 {
 }
 
 .hero-text {
-<<<<<<< Updated upstream
   padding-left: 5%;
   margin-right: 65% !important;
   position: relative;
-  margin-top: 11% !important;
+  margin-top: 5% !important;
   box-sizing: border-box;
-=======
-  padding-left: 5rem;
-  margin-right: 45rem !important;
-  margin-top: 5.7rem !important;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
->>>>>>> Stashed changes
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -10096,14 +10086,29 @@ h3 {
   height: 100vh;
 }
 
-section {
-  background: linear-gradient(#ad1d1d91, #ffffff28), url(../images/gymnastics_hero_image_v2_crop.jpg) center/cover;
-  height: 100vh;
+#about {
+  background: url(../images/about-background.svg) center/cover;
+  height: 100%;
+  padding-bottom: 10%;
+  background-color: #a81010;
+}
+
+#directions {
+  background: linear-gradient(#ad1d1d91, #ffffff28), url(../images/child-gymnastics-balance-beam-girl-gymnast-athlete-during-exercise-horizontal-bar-gymnastics-competitions-coach-with-child.jpg) center/cover;
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+#testimonials {
+  background: url(../images/testimonial-shape.svg) center/cover;
+  height: 100%;
+  padding-bottom: 10%;
 }
 
 .section-head {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 /* CSS used here will be applied after bootstrap.css */
@@ -10118,15 +10123,25 @@ section {
   margin-top: 1em;
 }
 
-@media only screen and (max-width: 1288px) {
+@media only screen and (max-width: 1289px) {
   .hero-text {
-    padding-left: 5%;
     margin-right: 0 i !important;
+  }
+
+  .masthead {
+    background: linear-gradient(#ad1d1d91, #ffffff28), url(../images/gymnastics_hero_image_v2_crop.jpg) center/cover;
+    height: 100vh;
   }
 }
 @media only screen and (max-width: 940px) {
   .hero-text {
     margin-top: 0;
     flex-direction: column;
+  }
+
+  .masthead {
+    background: linear-gradient(#ad1d1d91, #ffffff28), url(../images/gymnastics_hero_image_v2_crop.jpg) center/cover;
+    height: 100%;
+    padding-bottom: 10%;
   }
 }/*# sourceMappingURL=main.css.map */

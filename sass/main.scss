@@ -64,16 +64,10 @@ h3 {
 }
 
 .hero-text {
-<<<<<<< Updated upstream
     padding-left: 5%;
     margin-right: 65% !important;
     position: relative;
-    margin-top: 11% !important;
-=======
-    padding-left: 5rem;
-    margin-right: 45rem !important;
-    margin-top: 5.7rem !important;
->>>>>>> Stashed changes
+    margin-top: 5% !important;
     box-sizing: border-box;
     display: flex;
     justify-content: flex-start;
@@ -87,15 +81,33 @@ h3 {
     height: 100vh;
   }
 
-  section {
+  #about {
+    background:
+    url(../images/about-background.svg)center/cover;
+    height: 100%;
+    padding-bottom: 10%;
+    background-color: $logo-red;
+  }
+
+  #directions {
     background: linear-gradient(#ad1d1d91, #ffffff28),
-    url(../images/gymnastics_hero_image_v2_crop.jpg)center/cover;
-    height: 100vh;
+    url(../images/child-gymnastics-balance-beam-girl-gymnast-athlete-during-exercise-horizontal-bar-gymnastics-competitions-coach-with-child.jpg)center/cover;
+    height: 100%;
+    padding-bottom: 10%;
+  }
+
+  #testimonials {
+    background:
+    url(../images/testimonial-shape.svg)center/cover;
+    height: 100%;
+    padding-bottom: 10%;
   }
 
   .section-head {
       display: flex;
       justify-content: center;
+      text-align: center;
+      
   }
   /* CSS used here will be applied after bootstrap.css */
 .ekko-lightbox-nav-overlay a {
@@ -108,11 +120,15 @@ h3 {
 	margin-top: 1em;
 }
 
-@media only screen and (max-width: 1288px){
+@media only screen and (max-width: 1289px){
     .hero-text {
-        padding-left: 5%;
         margin-right: 0 i !important;
     }
+    .masthead {
+        background: linear-gradient(#ad1d1d91, #ffffff28),
+        url(../images/gymnastics_hero_image_v2_crop.jpg)center/cover;
+        height: 100vh;
+      }  
 }
 
 @media only screen and (max-width: 940px) {
@@ -120,4 +136,10 @@ h3 {
         margin-top: 0;
         flex-direction: column;
     }
+    .masthead {
+        background: linear-gradient(#ad1d1d91, #ffffff28),
+        url(../images/gymnastics_hero_image_v2_crop.jpg)center/cover;
+        height: 100%;
+        padding-bottom: 10%;
+      }
 }

@@ -10046,6 +10046,10 @@ h3 {
   word-wrap: normal;
 }
 
+.h-100 {
+  height: 100vh;
+}
+
 .nav-link {
   font-weight: 700;
 }
@@ -10074,7 +10078,7 @@ h3 {
   margin-right: 65% !important;
   position: relative;
   margin-top: 5% !important;
-  box-sizing: border-box;
+  box-sizing: content-box;
   display: flex;
   justify-content: flex-start;
   align-items: center;

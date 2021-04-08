@@ -10089,7 +10089,7 @@ h3 {
 }
 
 #about {
-  background: url(../images/about-background.svg) center/cover no-repeat fixed;
+  background: url(../images/about-background.svg) center/cover;
   height: 100%;
   padding-bottom: 10%;
   background-color: #a81010;
@@ -10100,21 +10100,125 @@ h3 {
 }
 
 #directions {
-  background: linear-gradient(#ad1d1d91, #ffffff28), url(../images/child-gymnastics-balance-beam-girl-gymnast-athlete-during-exercise-horizontal-bar-gymnastics-competitions-coach-with-child.jpg) center/cover;
+  background: linear-gradient(#ad1d1d91, #ffffff28), url(../images/child-gymnastics-balance-beam-girl-gymnast-athlete-during-exercise-horizontal-bar-gymnastics-competitions-coach-with-child.jpg) center/cover no-repeat fixed;
   height: 100%;
   padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.directions-map {
+  border: #632828 0.5rem solid;
+}
+
+.directions-head {
+  margin-bottom: 5%;
+}
+
+.directions-text {
+  background-color: #e85d5d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15%;
+  min-height: 100%;
 }
 
 #testimonials {
   background: url(../images/testimonial-shape.svg) center/cover;
+  height: 50%;
+  padding-bottom: 15%;
+  padding-top: 15px;
+}
+
+.carousel {
+  padding: 0 70px;
+  margin-top: 5%;
+}
+
+.carousel .carousel-item {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 290px;
+}
+
+.carousel .carousel-item .img-box {
+  width: 30%;
+  height: 30%;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.carousel .img-box img {
+  width: 100%;
   height: 100%;
-  padding-bottom: 10%;
+  display: block;
+  border-radius: 50%;
+}
+
+.carousel .testimonial {
+  padding: 30px 0 10px;
+}
+
+.carousel .overview {
+  font-style: italic;
+}
+
+.carousel .overview b {
+  text-transform: uppercase;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 25px;
+  height: 25px;
+  margin-top: 15%;
+  top: 50%;
+  background: none;
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+  font-size: 68px;
+  line-height: 42px;
+  position: absolute;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+.carousel-indicators {
+  bottom: -40px;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 12px;
+  height: 1px;
+  margin: 1px 3px;
+  border-radius: 50%;
+  border: none;
+}
+
+.carousel-indicators li {
+  background: #999;
+  border-color: transparent;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li.active {
+  background: #555;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .section-head {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+section {
+  margin: 0;
 }
 
 /* CSS used here will be applied after bootstrap.css */

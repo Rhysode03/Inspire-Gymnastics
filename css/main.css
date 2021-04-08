@@ -10089,7 +10089,7 @@ h3 {
 }
 
 #about {
-  background: url(../images/about-background.svg) center/cover;
+  background: url(../images/about-background.svg) center/cover no-repeat fixed;
   height: 100%;
   padding-bottom: 10%;
   background-color: #a81010;

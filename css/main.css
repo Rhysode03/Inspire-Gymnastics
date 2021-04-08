@@ -10221,6 +10221,10 @@ section {
   margin: 0;
 }
 
+.gallery-head {
+  background: linear-gradient(#ad1d1d91, #ffffff28);
+}
+
 /* CSS used here will be applied after bootstrap.css */
 .ekko-lightbox-nav-overlay a {
   color: goldenrod;
@@ -10290,7 +10294,7 @@ section {
   opacity: 1;
   position: relative;
   top: 3px;
-  border: solid 2px white;
+  border: solid 2px #a81010;
 }
 @media (min-width: 992px) {
   #exampleModal.custom .modal-header button {
@@ -10476,45 +10480,16 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
+.schedule-head {
+  background: linear-gradient(#ad1d1d91, #ffffff28), url(../images/schedule-hero-2.jpg) center/cover;
+  height: 100vh;
 }
 
-.slider.round:before {
-  border-radius: 50%;
-}
-
-.switch-wrap {
-  text-align: center;
-  background-color: #b1fbc1;
-  padding: 30px;
-  border-radius: 3px;
-  margin: 30px 0 0;
-}
 @media (min-width: 576px) {
-  .switch-wrap {
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-    padding: 10px;
-  }
-}
-
-.switch-text {
-  display: block;
-  margin: 0.5em;
-}
-@media (min-width: 576px) {
-  .switch-text {
+  .boostrap-sm {
     margin: 0 1em 0 0;
   }
 }
-
 @media only screen and (max-width: 1289px) {
   .hero-text {
     margin-right: 0 i !important;

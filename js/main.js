@@ -6,3 +6,13 @@ if (!isiOS) {
             var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically var scrollamount = (scrolltop / (scrollheight-windowheight)) * 100 // get amount scrolled (in %)
             fish.style.left = -100 + scrollamount + '%' // set position of fish in percentage (starts at -100%) }, false)
         };
+
+        function switchStyle() {
+            if (document.getElementById('styleSwitch').checked) {
+                document.getElementById('gallery').classList.add("custom");
+                document.getElementById('exampleModal').classList.add("custom");
+            } else {
+                document.getElementById('gallery').classList.remove("custom");
+                document.getElementById('exampleModal').classList.remove("custom");
+            }
+        }

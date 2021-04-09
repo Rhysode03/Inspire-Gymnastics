@@ -1,6 +1,5 @@
 @import "functions";
 @import "variables";
-@import "mixins";
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700;800&display=swap');
 
@@ -70,10 +69,10 @@ h3 {
 }
 
 .hero-text {
-    padding-left: 5%;
+    padding-left: 10%;
     margin-right: 65% !important;
     position: relative;
-    margin-top: 5% !important;
+    margin-top: 10% !important;
     box-sizing: content-box;
     display: flex;
     justify-content: flex-start;
@@ -215,6 +214,7 @@ h3 {
 
 .gallery-head {
     background: linear-gradient(#ad1d1d91, #ffffff28);
+    height: 100vh;
 }
 
   /* CSS used here will be applied after bootstrap.css */
@@ -514,12 +514,35 @@ $bootstrap-xl: 1200px;
     url(../images/schedule-hero-2.jpg)center/cover;
     height: 100vh;
 }
-    
-@media (min-width: $bootstrap-sm) {
-    .boostrap-sm {
-        margin: 0 1em 0 0;
-    }
+
+#schedule h2 {
+  color: $logo-red !important;
 }
+
+.table {
+  justify-content: space-between;
+}
+
+
+thead{
+ background-color: $logo-red; 
+}
+
+#documents {
+  background: ($logo-red);
+  height: 100%;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+#classes {
+  background: linear-gradient(#ad1d1d91, #ffffff28),
+  url(../images/child-gymnastics-balance-beam-girl-gymnast-athlete-during-exercise-horizontal-bar-gymnastics-competitions-coach-with-child-swinging.jpg)center/cover;
+  height: 100%;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
 
 @media only screen and (max-width: 1289px){
     .hero-text {
@@ -530,6 +553,12 @@ $bootstrap-xl: 1200px;
         url(../images/gymnastics_hero_image_v2_crop.jpg)center/cover;
         height: 100vh;
       }  
+      .schedule-head {
+        background: linear-gradient(#ad1d1d91, #ffffff28),
+        url(../images/schedule-hero-2.jpg)center/cover;
+        height: 100%;
+        padding-bottom: 10%;
+    }
 }
 
 @media only screen and (max-width: 940px) {

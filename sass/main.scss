@@ -15,6 +15,10 @@ $bright-red: #e85d5d;
 @import "bootstrap";
 
 //global styles
+html, body {
+    overflow-x: hidden ;
+}
+
 body {
     font-family: $recursive;
 }

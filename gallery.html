@@ -40,23 +40,37 @@
                 </ul>
             </div>
         </nav>
-        <div class="notice col-12" data-toggle="modal" data-target="#modal">
-            <a href="#modal" class="nav-link p-0 pr-2 m-0">COVID-19 Statement</a>
+        <div class="notice col-12" data-toggle="modal" data-target="#exampleModal">
+            <a href="#exampleModal" class="nav-link p-0 pr-2 m-0">COVID-19 Statement</a>
+        </div>
+        <!-- CovidModal -->
+        <div class="modal fade-in" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-primary">
+                    <div class="modal-header">
+                        <h2 class="modal-title text-uppercase" id="exampleModalLabel">we're open!!</h2>
+                    </div>
+                    <div class="modal-body text-white">
+                        Covid-19 Statement:<br>
+                        We are working hard at protecting all the students and staff. We are doing enhanced cleaning
+                        during and after hours. Our waiting area is closed. We are doing drop off and pick up at the
+                        door. Our drinking fountain is closed. Students and staff are required to wash their hands
+                        before and after class. Anyone that is showing symptoms of being sick are not allowed to attend
+                        gymnastics.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <h1 class="text-center mb-5">Gallery</h1>
     </header>
-    <!-- Gallery -->
-    <!-- 
-Gallery is linked to lightbox using data attributes.
 
-To open lightbox, this is added to the gallery element: {data-toggle="modal" data-target="#exampleModal"}.
-
-To open carousel on correct image, this is added to each image element: {data-target="#carouselExample" data-slide-to="0"}.
-Replace '0' with corresponding slide number.
--->
-    <div class="container mt-5">
-        <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
+    <div class="container mt-5 mb-5">
+        <div class="row" id="gallery" data-toggle="modal" data-target="#galleryModal">
             <div class="col-12 col-sm-6 col-lg-3">
                 <img class="w-100" src="images/gymnastics_hero_image_v2_crop.jpg" alt="First slide"
                     data-target="#carouselExample" data-slide-to="0">
@@ -81,10 +95,7 @@ Replace '0' with corresponding slide number.
 
 
     <!-- Modal -->
-    <!-- 
-  This part is straight out of Bootstrap docs. Just a carousel inside a modal.
-  -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -137,6 +148,57 @@ Replace '0' with corresponding slide number.
             </div>
         </div>
     </div>
+    <footer class="pt-5 text-left text-lg-start bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 text-center">
+                    <h5 class="text-uppercase text-white">Contact Info:</h5>
+
+                    <p>
+                        <a href="https://www.google.co.uk/maps/place/Inspire+Gymnastics/@41.2317486,-111.9797509,17z/data=!3m1!4b1!4m5!3m4!1s0x87530eea3d183a3b:0xd5ca78dfcf9ae34c!8m2!3d41.2317486!4d-111.9775622"
+                            target="_blank" class="text-success">1960
+                            Wall Ave Ogden, Utah 84401<br></a>
+                        <a href="tel:+385-289-2962" class="text-success">385-289-2962<br></a>
+                        <a href="mailto:info@inpiregymnasticsutah.com" target="_blank"
+                            class="text-success">info@inpiregymnasticsutah.com</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-12 mb-4 text-center">
+                    <h5 class="text-uppercase text-white">Site</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="index.html" class="text-success">Home</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html" class="text-success">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="schedule.html" class="text-success">Schedule</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12 mb-4">
+                    <h5 class="text-uppercase mb-0 text-center text-white">Social</h5>
+
+                    <ul class="list-unstyled text-center">
+                        <li>
+                            <a href="https://www.facebook.com/inspiregymnasticsutah" target="_blank"
+                                class="text-success"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/inspiregymnastics.utah/" target="_blank"
+                                class="text-success"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-info text-white">
+            Copyright © 2021 Inspire Gymnastics. All Rights Reserved
+        </div>
+    </footer>
+
 
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>

@@ -10092,6 +10092,12 @@ h3 {
   height: 100vh;
 }
 
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
 #about {
   background: url(../images/about-background.svg) center/cover;
   height: 100%;
@@ -10135,7 +10141,7 @@ h3 {
 }
 
 .carousel {
-  padding: 0 70px;
+  padding: 0;
   margin-top: 5%;
 }
 
@@ -10178,9 +10184,9 @@ h3 {
 .carousel-control-prev, .carousel-control-next {
   width: 20px;
   height: 20px;
-  margin-top: 15%;
-  top: 3rem;
+  margin-top: 40%;
   background: none;
+  color: #a81010;
 }
 
 .carousel-control-prev i, .carousel-control-next i {
@@ -10188,7 +10194,7 @@ h3 {
   line-height: 42px;
   position: absolute;
   display: inline-block;
-  color: white;
+  color: #a81010;
 }
 
 .carousel-indicators {
@@ -10197,7 +10203,7 @@ h3 {
 
 .carousel-indicators li, .carousel-indicators li.active {
   width: 12px;
-  height: 1px;
+  height: 2px;
   margin: 1px 3px;
   border-radius: 50%;
   border: none;
@@ -10226,7 +10232,7 @@ section {
 
 .gallery-head {
   background: linear-gradient(#ad1d1d91, #ffffff28);
-  height: 100vh;
+  height: 100%;
 }
 
 /* CSS used here will be applied after bootstrap.css */
@@ -10258,7 +10264,7 @@ section {
 }
 
 .carousel-item img {
-  height: 60vw;
+  height: 50vw;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -10309,7 +10315,7 @@ section {
   top: 3px;
 }
 #exampleModal.custom .modal-header span {
-  color: white;
+  color: #a81010;
 }
 #exampleModal.custom .modal-body {
   padding: 0;

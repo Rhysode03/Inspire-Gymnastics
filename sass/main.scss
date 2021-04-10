@@ -91,6 +91,12 @@ h3 {
     height: 100vh;
   }
 
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
   #about {
     background:
     url(../images/about-background.svg)center/cover;
@@ -137,7 +143,7 @@ h3 {
   }
 
   .carousel {
-    padding: 0 70px;
+    padding: 0;
     margin-top: 5%;
 }
 .carousel .carousel-item {
@@ -173,23 +179,23 @@ h3 {
 .carousel-control-prev, .carousel-control-next {
     width: 20px;
     height: 20px;
-    margin-top: 15%;
-    top: 3rem;
+    margin-top: 40%;
     background: none;
+    color: $logo-red;
 }
 .carousel-control-prev i, .carousel-control-next i {
     font-size: 68px;
     line-height: 42px;
     position: absolute;
     display: inline-block;
-    color: white;
+    color: $logo-red;
 }
 .carousel-indicators {
     bottom: -40px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
     width: 12px;
-    height: 1px;
+    height: 2px;
     margin: 1px 3px;
     border-radius: 50%;
     border: none;
@@ -216,7 +222,7 @@ h3 {
 
 .gallery-head {
     background: linear-gradient(#ad1d1d91, #ffffff28);
-    height: 100vh;
+    height: 100%;
 }
 
   /* CSS used here will be applied after bootstrap.css */
@@ -225,9 +231,9 @@ h3 {
 }
 .gallery-title {
     text-align: center;
-	font-weight: 500;
-	border-bottom: 1px dotted orange;
-	margin-top: 1em;
+    font-weight: 500;
+    border-bottom: 1px dotted orange;
+    margin-top: 1em;
 }
 
 $bootstrap-sm: 576px;
@@ -256,7 +262,7 @@ $bootstrap-xl: 1200px;
   .carousel-item {
     
     img {
-      height: 60vw;
+      height: 50vw;
       object-fit: cover;
       
       @media (min-width: $bootstrap-sm) {
@@ -317,7 +323,7 @@ $bootstrap-xl: 1200px;
       }
       
       span {
-        color: white;
+        color: $logo-red;
       }
     }
     

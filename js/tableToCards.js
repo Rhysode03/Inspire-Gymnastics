@@ -99,10 +99,10 @@ function tableToCards() {
 		// Generate cards
 		var cards = [];
 		$(this).find("tbody tr").each(function() {
-			var cardTitle = $("<h5>").addClass("card-title");
+			var cardTitle = $("<h5>").addClass("card-title text-primary");
 			var cardSubtitles = [];
 			var cardText = $("<p>").addClass("card-text");
-			var cardFooters = $("<div>").addClass("card-footer text-muted");
+			var cardFooters = $("<div>").addClass("card-footer bg-success");
 			var actionLinks = [];
 
 			var appliedFormats = [];

@@ -73,7 +73,7 @@ h3 {
 }
 
 .hero-text {
-    padding-left: 10%;
+    padding-left: 8%;
     margin-right: 65% !important;
     position: relative;
     margin-top: 10% !important;
@@ -531,6 +531,11 @@ $bootstrap-xl: 1200px;
   justify-content: space-between;
 }
 
+.event-head {
+  background: linear-gradient(#ad1d1d91, #ffffff28),
+  url(../images/balloons.jpg)center/cover;
+  height: 100vh;
+}
 
 thead{
  background-color: $logo-red; 

@@ -10770,6 +10770,11 @@ img[data-imagebox] {
     height: 100vh;
   }
 
+  .event-head {
+    height: 100%;
+    padding-bottom: 10%;
+  }
+
   .schedule-head {
     background: linear-gradient(#ad1d1d91, #ffffff28), url(../images/schedule-hero-2.jpg) center/cover;
     height: 100%;
@@ -10827,6 +10832,11 @@ img[data-imagebox] {
 
   .masthead {
     background: linear-gradient(#ad1d1d91, #ffffff28), url(../images/gymnastics_hero_image_mobile_crop.jpg) center/cover;
+    height: 100%;
+    padding-bottom: 10%;
+  }
+
+  .event-head {
     height: 100%;
     padding-bottom: 10%;
   }

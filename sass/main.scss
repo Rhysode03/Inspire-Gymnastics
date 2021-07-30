@@ -806,6 +806,10 @@ font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
         url(../images/gymnastics_hero_image_v2_crop.jpg)center/cover;
         height: 100vh;
       }  
+      .event-head {
+        height: 100%;
+        padding-bottom: 10%;
+      }
       .schedule-head {
         background: linear-gradient(#ad1d1d91, #ffffff28),
         url(../images/schedule-hero-2.jpg)center/cover;
@@ -857,6 +861,10 @@ font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
     .masthead {
         background: linear-gradient(#ad1d1d91, #ffffff28),
         url(../images/gymnastics_hero_image_mobile_crop.jpg)center/cover;
+        height: 100%;
+        padding-bottom: 10%;
+      }
+      .event-head {
         height: 100%;
         padding-bottom: 10%;
       }

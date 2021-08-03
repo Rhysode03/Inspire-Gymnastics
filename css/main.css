@@ -10066,8 +10066,8 @@ h3 {
   height: 4rem;
 }
 .navbar-brand img {
-  width: 5rem;
-  height: 3rem;
+  width: 7rem;
+  height: 5rem;
 }
 
 .notice {
@@ -10907,6 +10907,14 @@ img[data-imagebox] {
 
   .carousel-inner {
     height: 27rem;
+  }
+
+  .navbar-brand {
+    height: 4rem;
+  }
+  .navbar-brand img {
+    width: 6rem;
+    height: 4rem;
   }
 }
 @media only screen and (max-width: 645px) {
